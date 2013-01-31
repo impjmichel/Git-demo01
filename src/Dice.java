@@ -15,6 +15,9 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+/*
+ * 
+ */
 
 import java.util.Random;
 
@@ -23,6 +26,9 @@ public class Dice {
 	int dice_max;
 	private Random d;
 	
+	/*
+	 * this is a really useless constructor.
+	 */
 	public Dice(int max)
 	{
 		d = new Random();
